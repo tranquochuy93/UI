@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy load</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="javascriptObserver.js"></script>
+</head>
+<body>
+    <div class="main">
+        <h5>lazy load image</h5>
+        <div class="container_img">
+            <img src="images/small1.jpg" alt="">
+        </div>
+        <p>Hoisting is JavaScript’s default behavior of reading all defined variables or function declarations at the top of the scope before any other code execution occurs. One of the benefits of hoisting in JavaScript is that it allows us to call functions before they appear in code, therefore abstract out our code some.</p>
+        <div class="container_img">
+            <img src="images/small2.jpg" alt="">
+        </div>
+        <p>Also, it’s key to note that JavaScript only hoists function declarations, not initializations or arrow functions.</p>
+        <div class="container_img">
+            <img src="images/small3.jpg" alt="">
+        </div>
+        <p>Function declarations: a function declared with a function keyword, followed by a name of the function, and a pair of parenthesis:</p>
+        <div class="container_img">
+            <img src="" alt="" data-src="images/small4.jpg">
+        </div>
+        <p>The syntax for hoisting will look something like this in a program:</p>
+        <div class="container_img">
+            <img src="" alt="" data-src="images/small5.jpg">
+        </div>
+        <p>No matter where a function is declared, it is moved to the top of its scope regardless if it has a global or local scope. So one could say, the main advantage of using hoisting is that functions don’t have to be declared in a specific order in order to work properly.</p>
+        <div class="container_img">
+            <img width="1000px" height="1000px" src="" alt="" data-src="images/big1.jpg">
+        </div>
+        <p>Hoisting is not necessarily considered all that great and maybe even bad practice. Let’s say you have many declared variables and function declarations all being hoisted, these will all get read in the browser before any code is executed. All of this hoisting in turn will likely slow down the application's runtime quite dramatically.</p>
+        <div class="container_img">
+            <img width="1000px" height="800px" src="" alt="" data-src="images/big2.jpg">
+        </div>
+        <p>n JavaScript it’s super helpful to grasp hoisting, while it may not be something you likely will purposely want to implement, it is key to understanding its role in JavaScript functionality.</p>
+    </div>
+</body>
+</html>
