@@ -27,7 +27,7 @@ https://www.youtube.com/watch?v=QgMQeLymAdU&t=1235s
 1. install gulp
 ```cmd
 npm install gulp-cli -g
-install --save-dev gulp gulp-sass browser-sync
+npm install --save-dev gulp gulp-sass browser-sync
 ```
 
 2. create file /gulpfile.js
