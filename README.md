@@ -23,6 +23,7 @@ https://www.youtube.com/watch?v=AActXSWxsRo
 <img src="product-6.jpg" loading="lazy" alt="..." width="200" height="200">
  ```
 ### build scss to css using GULP
+https://www.youtube.com/watch?v=QgMQeLymAdU&t=1235s
 1. install gulp
 ```cmd
 npm install gulp-cli -g
